@@ -1,0 +1,65 @@
+.navbar {
+  height: 48px;
+  
+  padding: 0 7%;
+}
+
+.navbar > div {
+  height: 100%;
+  border-top: 1px solid #eae9e7;
+  border-bottom: 1px solid #eae9e7;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  height: 100%;
+}
+
+.navbar li {
+  height: 100%;
+}
+
+.navbar li a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  text-decoration: none;
+}
+
+.leftMenu li a {
+  padding: 0 22px;
+}
+
+.leftMenu li:first-child {
+  padding-left: 0;
+}
+
+.leftMenu li:last-child {
+  padding-right: 0;
+}
+
+.leftMenu li a {
+  transition: color .4s;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #2d2d28;
+  letter-spacing: .1em;
+}
+
+.leftMenu li a:hover {
+  color: #5c5c5c;
+}
+
+.socialLinks ul li {
+  padding: 0 5px;
+}
+
+.socialLinks ul li a {
+  color: rgb(45, 45, 40);
+  font-size: 13px;
+}
