@@ -7,7 +7,6 @@
 }
 
 .topArea ul {
-  list-style-type: none;
   display: flex;
   height: 100%;
 }

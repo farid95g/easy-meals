@@ -14,7 +14,6 @@
 }
 
 .navbar ul {
-  list-style-type: none;
   display: flex;
   height: 100%;
 }
@@ -53,13 +52,4 @@
 
 .leftMenu li a:hover {
   color: #5c5c5c;
-}
-
-.socialLinks ul li {
-  padding: 0 5px;
-}
-
-.socialLinks ul li a {
-  color: rgb(45, 45, 40);
-  font-size: 13px;
 }
