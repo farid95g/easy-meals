@@ -4,6 +4,7 @@ import logo from "./../../../logo.png";
 import { IoIosSearch } from "react-icons/io";
 import { VscBookmark } from "react-icons/vsc";
 import { BiBasket } from 'react-icons/bi';
+import { NavLink } from "react-router-dom";
 
 const MiddleNavbar = () => {
   return (
@@ -24,15 +25,15 @@ const MiddleNavbar = () => {
           <div>
             <ul>
               <li>
-                <a href="favourites">
+                <NavLink to="/favourites">
                   <VscBookmark />Favourites 
-                </a>
+                </NavLink>
               </li>
               <li>
-                <a href="favourites">
+                <NavLink to="/cart">
                   <BiBasket />Cart
                   <span>($0.00)</span>
-                </a>
+                </NavLink>
               </li>
             </ul>
           </div>

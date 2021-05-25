@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./TopNavbar.module.css";
 import { FaRegSmile, FaRegUser } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const TopNavbar = () => {
   return (
@@ -8,33 +9,33 @@ const TopNavbar = () => {
       <div>
         <ul className={classes.topAreaLinks}>
           <li>
-            <a href="/forums">Forums</a>
+            <NavLink to="/forums">Forums</NavLink>
           </li>
           <li>
-            <a href="/desserts">Desserts</a>
+            <NavLink to="/desserts">Desserts</NavLink>
           </li>
           <li>
-            <a href="/books">Books</a>
+            <NavLink to="/books">Books</NavLink>
           </li>
           <li>
-            <a href="/all-recipes">All Recipes</a>
+            <NavLink to="/all-recipes">All Recipes</NavLink>
           </li>
           <li>
-            <a href="/popular">Popular</a>
+            <NavLink to="/popular">Popular</NavLink>
           </li>
         </ul>
       </div>
       <div className={classes.login}>
         <ul>
           <li>
-            <a href="/register">
+            <NavLink to="/register">
               <FaRegSmile />Register
-            </a>
+            </NavLink>
           </li>
           <li>
-            <a href="/login">
+            <NavLink to="/login">
               <FaRegUser />Login
-            </a>
+            </NavLink>
           </li>
         </ul>
       </div>

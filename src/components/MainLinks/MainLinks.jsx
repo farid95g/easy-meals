@@ -1,27 +1,28 @@
 import React from "react";
 import classes from "./MainLinks.module.css";
+import { NavLink } from "react-router-dom";
 
 const MainLinks = () => {
   return (
     <div className={classes.navMenu}>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <a href="/recipes">Recipes</a>
+          <NavLink to="/recipes">Recipes</NavLink>
         </li>
         <li>
-          <a href="/forum">Forum</a>
+          <NavLink to="/forum">Forum</NavLink>
         </li>
         <li>
-          <a href="/shop">Shop</a>
+          <NavLink to="/shop">Shop</NavLink>
         </li>
         <li>
-          <a href="/about">About</a>
+          <NavLink to="/about">About</NavLink>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>
     </div>
