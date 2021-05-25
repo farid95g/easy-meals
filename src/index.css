@@ -17,3 +17,16 @@ ul {
   padding: 0;
   list-style-type: none;
 }
+
+input, input:focus, button, button:focus {
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}

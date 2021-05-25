@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./TopNavbar.module.css";
+import { FaRegSmile, FaRegUser } from "react-icons/fa";
 
 const TopNavbar = () => {
   return (
@@ -26,10 +27,14 @@ const TopNavbar = () => {
       <div className={classes.login}>
         <ul>
           <li>
-            <a href="/register">Register</a>
+            <a href="/register">
+              <FaRegSmile />Register
+            </a>
           </li>
           <li>
-            <a href="/login">Login</a>
+            <a href="/login">
+              <FaRegUser />Login
+            </a>
           </li>
         </ul>
       </div>

@@ -58,3 +58,10 @@
   font-size: 12px;
   font-weight: 600;
 }
+
+.login ul li a svg {
+  color: #fee86d;
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+}
