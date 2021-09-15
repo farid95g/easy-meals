@@ -7,7 +7,15 @@ const Main = () => {
   return (
     <main className={classes.main}>
       <h3>Main</h3>
-      <Meal background={img} />
+      <div className={classes.meals}>
+        <div className={classes.slider}>
+        <Meal background={img} />
+        <Meal background={img} />
+        <Meal background={img} />
+        <Meal background={img} />
+        <Meal background={img} />
+        </div>
+      </div>
     </main>
   );
 }
